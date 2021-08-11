@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Conversor de Moedas</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Conversor de Moedas</h1>
+
+    <main>
+      <div>
+        <select name="converter-de" id="converter-de">
+          <option selected disabled>Converter de</option>
+          <option value="real">Real</option>
+          <option value="dolar-americano">Dólar Americano</option>
+          <option value="euro">Euro</option>
+          <option value="iene">Iene</option>
+        </select>
+
+        <select name="para-qual-valor" id="para-qual-valor">
+          <option selected disabled>Para</option>
+          <option value="real">Real</option>
+          <option value="dolar-americano">Dólar Americano</option>
+          <option value="euro">Euro</option>
+          <option value="iene">Iene</option>
+        </select>
+      </div>
+
+      <div>
+        <input type="number" name="converter" id="converter" min="0" />
+
+        <p id="resultado">Valor: <span id="simbolo-moeda"></span> <span id="valor-convertido"></span></p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
