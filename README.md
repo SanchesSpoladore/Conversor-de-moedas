@@ -1,20 +1,25 @@
 # Conversor de moedas
 
+![](./.github/preview.png)
+
 ## Conteúdo
 - [Sobre](#sobre)
 - [Links](#links)
 - [Tecnologias](#tecnologias)
+- [Autor](#autor)
 
 ## Sobre
-Conversor de moedas para as moedas, Real, Dólar Americano, Euro, Iene. As moedas são atualizadas utilizando API.
+Conversor de moedas para as moedas, Real, Dólar Americano, Euro, Iene. Para converter basta selecionar qual a moeda que você irá digitar e depois selecionar qual que você queira que converta.
 
-### Links
-- Site - https://codepen.io/Sanches-Spoladore/full/BaRMwpd
-- Documentação da API - https://docs.awesomeapi.com.br/api-de-moedas
+## Links
+- Site - https://dinheiro.netlify.app
+- Documentação - https://docs.awesomeapi.com.br/api-de-moedas
 
-### Tecnologias
-- Tags semânticas do HTML5
-- Propriedades comuns do CSS
-- Flexbox
-- Javascript puro
+## Tecnologias
+- HTML
+- CSS
+- Javascript
 - API
+
+## Autor
+- Site - https://sanches-spoladore.netlify.app
